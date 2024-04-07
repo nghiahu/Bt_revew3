@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.background {
+    background-color: rgb(23, 13, 33);
+    height: 100%;
+    margin-top: 20px;
+    width: 60%;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    
+}
+.title{
+    font-size: 21px;
+    color:rgb(203, 66, 139);
+    padding-top: 20px;
+    
+}
+.main_interface {
+    background-color: white;
+    width: 90%;
+    height: 100%px;
+    margin-bottom: 10px;
+}
+.point {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.but_point{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 20px;
+}
+.but_point button{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(222, 214, 214);
+    border: none;
+    font-size: 11px;
+    width: 40px;
+    height: 40px;
+}
+.but_point button:active{
+    background-color: rgb(216, 94, 94);
+}
+.input_review {
+    margin-left: 50px;
+    padding-top: 70px;
+    position: relative;
+}
+.input_review input{
+    width: 700px;
+    height: 50px;
+    padding-left: 20px;
+}
+#but_send {
+    position: absolute;
+    right: 70px;
+    top:82px;
+    z-index: 1;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(174, 169, 169);
+    border: none;
+}
+#but_send:active{
+    background-color: rgb(222, 88, 88);
+}
+#evaluate {
+    padding-top: 80px;
+}
+
+.point_choice{
+    background-color: rgb(197, 88, 88);
+    border-radius:50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.edit_eva {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 30px;
+    align-items: center;
+}
+.edit {
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.fix{
+    color: red;
+}
+.del {
+    color: red;
+}
+
+.inputValue {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.point_choice{
+    margin-top: 30px;
+}
